@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Details</title>
+<style>
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ li {
+  float: left;
+}
+
+ li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ li a:hover {
+  background-color: #111;
+}
+
+#Sidebar {
+  height: 60%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 150;
+  left: 0;
+  background-color:#4CAF50;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+#Sidebar p,h3 {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+  display: block;
+}
+
+#Sidebar p:hoover {
+  color: #f1f1f1;
+}
+
+#Content {
+  margin-left: 160px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  #Sidebar {padding-top: 15px;}
+  #Sidebar a {font-size: 18px;}
+}
+
+#Footer {
+  height: 20%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 600;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+{
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 31%;
+  padding: 5px;
+  font-size: 11px; 
+}
+
+.column3 {
+  float: left;
+  width: 35%;
+  padding: 5px;
+  font-size: 11px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+.active {
+  background-color: #111;
+}
+
+#list {
+   list-style-type: circle;
+      }
+
+</style>
+</head>
+<body style="background-color: #e3eaa7;">
+<div id="header" style="background-color: #e3eaa7;">
+<img src="https://res.cloudinary.com/dzqubkezt/image/upload/v1631958970/mohnishkeeni_resume_osjyb0.jpg" alt="resumelogo" align="left" style="width:175px; height:45px; margin-right:15px;">
+
+<h1 style="font-family:verdana; font-weight: bold; text-align: center; ">
+        MOHNISH KEENI</h1>
+<hr>
+<hr>
+</div>
+<div id="navigation menu">
+<ul >
+  <li ><a href="website_homepage.html" >Home</a></li>
+  <li ><a href="website_aboutme.html">About Me</a></li>
+  <li ><a href="website_education.html">Education</a></li>
+  <li ><a class="active" href="website_contactme.html">Contact Me</a></li>
+</ul>
+</div>
+<div id="Sidebar" style="width:25% height:75% float:left;">
+  <h3 >My Timeline</h3>
+  <p>DOB - 06/09/2000</p>
+  <p>Primary School- 2007-2011 </p>
+  <p>Junior School - 2012-2014</p>
+  <p>CICSE Class 10 Board Exam - 2017</p>
+  <p>CBSE Class 12 Board Exam - 2019</p>
+  <p>B.Tech in Computer Science and Engineering - 2019-Present</p>
+  <br>
+</div>
+<div id="Content" style="width:75% height:75% float:right; font-family:verdana; font-size: 22px; background-color:#d5e1df;">
+<h2 style=" font-weight: bold; text-align: center; text-decoration: underline; ">CONTACT ME</h2>
+<a href="mailto:mohnish_201900167@smit.smu.edu.in"><img src="https://res.cloudinary.com/dzqubkezt/image/upload/v1631957467/mohnishkeeni_emaillogo_dqspc8.jpg" alt="email" align="left" style="width:185px; height:65px; margin-right:15px;"></a>
+<br><br>
+<a href="https://www.linkedin.com/"><img src="https://res.cloudinary.com/dzqubkezt/image/upload/v1631957515/mohnishkeeni_linkedinlogo_bicmuw.jpg" alt="linkedin" align="left" style="width:185px; height:65px; margin-right:15px;">
+<br><br>
+<a href="https://www.github.com/mkeeni"><img src="https://res.cloudinary.com/dzqubkezt/image/upload/v1631957498/mohnishkeeni_githublogo_jrp6ao.jpg" alt="github" align="left" style="width:185px; height:65px; margin-right:15px;"></a>
+<br><br>
+<img src="https://res.cloudinary.com/dzqubkezt/image/upload/v1631957527/mohnishkeeni_phonelogo_km1sp9.jpg" alt="phone" align="left" style="width:185px; height:65px; margin-right:15px;"></a><br>
+<p>+91 9446532452</p><br>
+<br>
+</div>
+
+<div id="footer">
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <b>Home Address</b>
+    <p>50/B,<br>
+       Circular Rd,<br>
+       Ballygunge,<br>
+       Kolkata 700019</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <b>College Address</b>
+    <p>Sikkim Manipal Institute of Technology,<br>
+     Majitar,<br>
+     Rangpo,<br>
+     Sikkim 737136</p>
+  </div>
+  <div class="column3" style="background-color:#ccc;">
+    <b>Contact Details</b>
+    <p>Email:mohnish_201900167@smit.smu.edu.in<br>
+       Linkedin:linkedin.com/xyz<br>
+       Github:github.com/mkeeni<br>
+       Phone:+91 9446532452<br>
+    </p>
+    </p>
+  </div>
+</div>
+</div>
+
+
+
+</body>
+</html>
